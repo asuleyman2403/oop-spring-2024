@@ -1,7 +1,6 @@
 
 
 class Car:
-    # constructor
     def __init__(self, brand, model, color):
         self.brand = brand
         self.model = model
@@ -11,10 +10,8 @@ class Car:
         print(self.brand, self.model)
 
     def extended_print(self):
-        # accessing method inside of the class
         self.print()
         print('Color: ', self.color)
-
 
 
 audi = Car("Audi", "Q6", "Black")
